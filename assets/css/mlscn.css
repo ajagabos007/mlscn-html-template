@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Graphit';
+    src: url('../fonts/graphit-font/Graphit-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Graphit Light';
+    src: url('../fonts/graphit-font/Graphit-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Graphit Bold';
+    src: url('../fonts/graphit-font/Graphit-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Graphit Regular';
+    src: url('../fonts/graphit-font/Graphit-Regular.otf');
+}
+
+:root {
+    --mlscn-green: #214300;
+    --mlscn-light-green: #418301;
+    --mlscn-yellow: #F5FD01;
+    --mlscn-black: #000000;
+    --mlscn-font-graphit: Graphit;
+    --mlscn-font-graphit-regular: 'Graphit Regular';
+    --mlscn-font-graphit-bold: 'Graphit Bold';
+    --mlscn-font-graphit-light: 'Graphit Light';
+    --mlscn-font-robot: Roboto;
+    --mlscn-navbar-toogler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 9h22M4 17h22M4 25h22'/%3e%3c/svg%3e")
+}
+
+body {
+    font-family: 'Graphit';
+}
+
+.mlscn-graphit-light {
+    font-family: 'Graphit Light'
+}
+
+.mlscn-graphit-bold {
+    font-family: 'Graphit Bold'
+}
+
+.mlscn-text-yellow {
+    color: var(--mlscn-yellow);
+}
+
+.mlscn-text-green {
+    color: var(--mlscn-green);
+}
+
+.mlscn-text-light-green {
+    color: var(--mlscn-light-green);
+}
+
+.mlscn-bg-yellow {
+    background-color: var(--mlscn-yellow);
+}
+
+.mlscn-b-yellow {
+    border-color: var(--mlscn-yellow) !important;
+}
+
+.mlscn-bg-green {
+    background-color: var(--mlscn-green);
+}
+
+.mlscn-bg-light-green {
+    background-color: var(--mlscn-light-green);
+}
+
+.mlscn-navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--mlscn-navbar-toogler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.mlscn-brand-logo {
+    width: 80px;
+    height: 80px;
+    top: 21px;
+    left: 46px;
+}
+
+.mlscn-brand-text {
+    font-weight: 700;
+    line-height: 43.16px;
+}
+
+.mlscn-nav-link {
+    color: var(--mlscn-light-green);
+    font-size: 1.2em;
+    font-family: 'Graphit Bold';
+}
+
+.mlscn-dropdown-toggle {
+    position: relative;
+    padding-right: 2px;
+    /* Space for the arrow */
+}
+
+.mlscn-dropdown-toggle::after {
+    display: inline-block; /* margin-left: 15em; */
+    position: absolute;
+    vertical-align: middle;/* Aligns the icon with the middle of the text */
+    font-family: "Font Awesome 6 Free"; /* Specify the Font Awesome font */
+    font-weight: 900; /* Ensure solid icons are used */
+    content: "\f30b"; /* Unicode for the long arrow right icon */
+    font-size: inherit; /* Ensures the icon is the same size as the text */
+    line-height: inherit;/* Matches the line height of the text */
+    right: 0%;
+    pointer-events: none; /* Ensures the arrow doesn't interfere with clicks*/
+}
+
+/* .nav-link::after { */
+/* content: "\f30b"; Unicode for the long arrow right icon */
+/* font-family: "Font Awesome 6 Free"; */
+/* font-weight: 900; */
+/* position: absolute; */
+/* right: 10px; Consistent distance from the right edge */
+/* top: 50%; */
+/* transform: translateY(-50%); Vertically center the arrow */
+/* pointer-events: none; /* Ensures the arrow doesn't interfere with clicks */
+/* } */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* Styles for xs (extra small) */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Styles for md (medium) */
+     .mlscn-dropdown-toggle::after {
+        right: 40%;    
+    }
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Styles for md (medium) */
+    .mlscn-dropdown-toggle::after {
+        right: 60%;    
+    }
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles for lg (large) */
+    .mlscn-dropdown-toggle::after {
+        right: 70%;    
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* Styles for xl (extra large) */
+    .mlscn-dropdown-toggle::after {
+        right: 70%;    
+    }
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    .mlscn-dropdown-toggle::after {
+        right: 1170px;    
+    }
+}
