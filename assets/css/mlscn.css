@@ -119,17 +119,22 @@ body {
     pointer-events: none; /* Ensures the arrow doesn't interfere with clicks*/
 }
 
-/* .nav-link::after { */
-/* content: "\f30b"; Unicode for the long arrow right icon */
-/* font-family: "Font Awesome 6 Free"; */
-/* font-weight: 900; */
-/* position: absolute; */
-/* right: 10px; Consistent distance from the right edge */
-/* top: 50%; */
-/* transform: translateY(-50%); Vertically center the arrow */
-/* pointer-events: none; /* Ensures the arrow doesn't interfere with clicks */
-/* } */
+.mlscn-carousel-img{
+    width: 1193px; 
+    height: 410px;
+    top:20px;
+    bottom: 20px;
+}
 
+.mlscn-carousel-caption {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #ffffff;
+    text-align: left;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* Styles for xs (extra small) */
