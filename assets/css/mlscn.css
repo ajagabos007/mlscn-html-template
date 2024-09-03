@@ -149,6 +149,18 @@ body {
     text-decoration: none;
     color:inherit
 }
+.mlscn-text-xs{
+    font-size: 12px;
+    line-height: 16px;
+}
+.mlscn-text-sm{
+    font-size: 14px;
+    line-height: 20px;
+}
+.mlscn-text-md{
+    font-size: 16px;
+    line-height: 24px;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* Styles for xs (extra small) */
