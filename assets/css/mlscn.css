@@ -135,6 +135,20 @@ body {
     color: #ffffff;
     text-align: left;
 }
+.mlscn-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.mlscn-link {
+    text-decoration: none;
+}
+
+.mlscn-link:hover {
+    text-decoration: none;
+    color:inherit
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* Styles for xs (extra small) */
