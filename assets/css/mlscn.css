@@ -63,6 +63,10 @@ body {
     border-color: var(--mlscn-yellow) !important;
 }
 
+.mlscn-b-green {
+    border-color: var(--mlscn-green);
+}
+
 .mlscn-bg-green {
     background-color: var(--mlscn-green);
 }
@@ -150,17 +154,31 @@ body {
     color:inherit
 }
 .mlscn-text-xs{
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75rem;
+    line-height: 1rem;
 }
 .mlscn-text-sm{
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
 }
+
 .mlscn-text-md{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
+
+.mlscn-section{
+    margin-top: 1.5rem ;
+    margin-bottom: .25rem;
+}
+.mlscn-news-card-body:hover , .mlscn-news-card-body:hover *  {
+
+    background-color: var(--mlscn-green);
+    color: white;
+    border-color: white;
+}
+
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     /* Styles for xs (extra small) */
