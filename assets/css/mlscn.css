@@ -139,11 +139,7 @@ body {
     color: #ffffff;
     text-align: left;
 }
-.mlscn-section{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #ffffff;
-}
+
 
 .mlscn-link {
     text-decoration: none;
@@ -168,7 +164,7 @@ body {
 }
 
 .mlscn-section{
-    margin-top: 1.5rem ;
+    margin-top: 1.7rem ;
     margin-bottom: .25rem;
 }
 .mlscn-news-card-body:hover , .mlscn-news-card-body:hover *  {
