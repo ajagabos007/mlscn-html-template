@@ -386,6 +386,7 @@ body {
     text-align: left;
     color: var(--mlscn-green);
     padding-left: 60px;
+    padding-top: 71px;
     text-transform: uppercase;
 }
 
