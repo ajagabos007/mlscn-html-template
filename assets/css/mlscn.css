@@ -32,7 +32,7 @@
 
 :root {
     --mlscn-green: #214300;
-    --mlscn-green-gradient:linear-gradient(180deg, #418301 100%, #214300 100%);
+    --mlscn-green-gradient: linear-gradient(180deg, #285100 0%, #152C00 100%);
     --mlscn-light-green: #418301;
     --mlscn-yellow: #F5FD01;
     --mlscn-black: #000000;
@@ -180,8 +180,12 @@ body {
     line-height: 1.5rem;
 }
 
+.mlscn-text-justify {
+    text-align: justify;
+}
+
 .mlscn-section{
-    margin-top: 1.7rem ;
+    margin-top: 3rem ;
     margin-bottom: .25rem;
 }
 .mlscn-news-card-body:hover , .mlscn-news-card-body:hover *  {
@@ -190,8 +194,15 @@ body {
     border-color: white;
 }
 
+#imlscnDisclaminer{
+    width: fit-content;
+}
+#imlscnNoticeBoard{
+    width: fit-content;
+}
+
 .bg-image-logo{
-    background-image: linear-gradient(rgba(33, 67, 0, 0.8), rgba(23, 47, 0, 0.8)), url('../images/logo.png');
+    background-image: linear-gradient(rgba(40, 81, 0, .9), rgba(21, 43, 0, .9)), url('../images/logo.png');
     background-size: contain;
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -257,6 +268,22 @@ body {
 }
 /* ARTICLE SECTION */
 
+.mlscn-disclaimer-card {
+    min-height: 523px;
+}
+.mlscn-disclaimer-header {
+    height: 81px;
+    align-content: center;
+    font-family: 'Graphit Bold';
+    border-radius: 1rem 1rem 0rem 0rem;
+    overflow-y: auto;
+    padding-left: 1rem;
+}
+.mlscn-disclaimer-body {
+    height: 424px;
+    overflow: auto;
+    border-radius: 0px 0px 30px 30px;
+}
 /* DISCLAIMER SECTION */
 .mlscn-disclaimer--section{
     height: 100%;
@@ -762,6 +789,15 @@ body {
     .mlscn-dropdown-toggle::after {
         right: 70%;    
     }
+    #imlscnDisclaminer{
+        width: 519px;
+        overflow-x: auto;
+    }
+    #imlscnNoticeBoard{
+        width: 219px;
+        overflow-x: auto;
+    }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -770,6 +806,15 @@ body {
     .mlscn-dropdown-toggle::after {
         right: 70%;    
     }
+
+    #imlscnDisclaminer{
+        width: 519px;
+        overflow-x: auto;
+    }
+    #imlscnNoticeBoard{
+        width: 219px;
+        overflow-x: auto;
+    }
 }
 
 /* Extra extra large devices (larger desktops, 1400px and up) */
@@ -777,5 +822,13 @@ body {
 
     .mlscn-dropdown-toggle::after {
         right: 1170px;    
+    }
+    #imlscnDisclaminer{
+        width: 519px;
+        overflow-x: auto;
+    }
+    #imlscnNoticeBoard{
+        width: 219px;
+        overflow-x: auto;
     }
 }
