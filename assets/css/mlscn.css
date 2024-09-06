@@ -261,8 +261,8 @@ body {
 .mlscn-disclaimer--section{
     height: 100%;
     min-height: 80vh;
-  padding-top: 45px;
-  margin-bottom: 29px;
+    padding-top: 45px;
+    margin-bottom: 29px;
 }
 
 .mlscn-disclaimer--container{
@@ -276,8 +276,8 @@ body {
     height: 81px;
     padding-top: 29px;
     padding-left: 24px;
-   border-radius: 30px 30px 0px 0px;
-   background-color: #B3B3B3;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #B3B3B3;
 }
 
 .mlscn-disclaimer--para{
@@ -392,13 +392,13 @@ body {
 
 .mlscn-home-back--link {
     font-family: 'Graphit';
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 36.99px;
+    line-height: 32px;
     text-align: left;
     color:#8D8D8D;
     text-decoration: none;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
     
 }
 
@@ -518,7 +518,157 @@ body {
     margin-left: 42px;
 }
 
+@media screen and (min-width:768px) {
+    .mlscn-home-back--link {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.99px;
+        margin-bottom: 55px;
+        
+    }
+}
 /* NEWS PAGE  */
+/* NEWS BODY */
+.mlscn-news-body-img__container img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.mlscn-news-body__para{
+    font-family: 'Graphit';
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 34.52px;
+    text-align: justify;
+
+}
+
+.mlscn-news-body__title{
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: var(--mlscn-green);
+    margin-top: 25px;
+    margin-bottom: 12px;
+
+}
+
+.mlscn-news-body-icon__container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mlscn-news-body-italic__para {
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25.89px;
+    text-align: left;
+
+}
+
+.mlscn-news-body__affairsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mlscn-news-body__btnContainer{
+    display: flex;
+    gap: 10px;
+    margin-top: 23px;
+}
+
+.mlscn-news-body__outlineBtn1 {
+    width: 74px;
+    padding: 10px 19px 10px 19px;
+    border-radius: 13px;
+    border: 2px solid var(--mlscn-green);
+    background: #ffffff;
+    font-family: 'Graphit';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.26px;
+    text-align: left; 
+}
+.mlscn-news-body__outlineBtn1:hover {
+    border: 2px solid var(--mlscn-green);
+    background: var(--mlscn-green);
+    color: #ffffff;
+    transition: 0.3ms ease-out;
+    
+}
+.mlscn-news-body__outlineBtn2 {
+    width: 99px;
+    padding: 10px 19px 10px 19px;
+    border-radius: 13px;
+    border: 2px solid var(--mlscn-green);
+    background: #ffffff;
+    font-family: 'Graphit';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.26px;
+    text-align: left; 
+}
+
+.mlscn-news-body__outlineBtn2:hover {
+    border: 2px solid var(--mlscn-green);
+    background: var(--mlscn-green);
+    color: #ffffff;
+    transition: 0.3ms ease-out;
+    
+}
+.mlscn-news-body__outlineBtn3 {
+    width: 87px;
+    padding: 10px 19px 10px 19px;
+    border-radius: 13px;
+    border: 2px solid var(--mlscn-green);
+    background: #ffffff;
+    font-family: 'Graphit';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.26px;
+    text-align: left; 
+}
+
+.mlscn-news-body__outlineBtn3:hover {
+    border: 2px solid var(--mlscn-green);
+    background: var(--mlscn-green);
+    color: #ffffff;
+    transition: 0.3ms ease-out;
+    
+}
+
+@media screen and (min-width:768px) {
+    .mlscn-news-body-img__container img{
+        height: 519px;
+    }
+    .mlscn-news-body__para{
+        font-size: 20px;
+    }
+    .mlscn-news-body__title{
+        margin-top: 51px;
+        font-size: 38px;   
+    }
+    .mlscn-news-body-icon__container{
+        margin-bottom: 39px;
+    }
+    .mlscn-news-body-italic__para {
+        font-size: 21px;
+    }
+    .mlscn-news-body__outlineBtn1 {
+        width: 74px;
+        padding: 10px 19px 10px 19px;
+    }
+}
+/* NEWS BODY */
 /* FOOTER */
 .mlscn-footer {
     position: relative;
