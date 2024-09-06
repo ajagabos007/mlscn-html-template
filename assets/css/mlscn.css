@@ -696,6 +696,74 @@ body {
     }
 }
 /* NEWS BODY */
+
+/* NEWS GOV BODY */
+.mlscn-govBody__img {
+    background-image: url(../images/news_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 186px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.mlscn-govBody__header{
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+    color: var(--mlscn-green);
+    padding-left: 20px;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+.table tbody tr:last-of-type{
+    border-color: #ffffff;
+}
+.mlscn-news-govb__tr th{
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    background-color: #CBCBCB;
+}
+
+.table-stripe tbody tr:nth-child(even) {
+    background-color: #CBCBCB;
+
+}
+
+tbody tr td {
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    
+    .mlscn-govBody__header{
+        font-size: 35px;
+        line-height: 43.16px;
+        padding-left: 60px;
+        padding-top: 71px; 
+    }
+
+    .mlscn-news-govb__tr th{
+        font-size: 30px;
+        line-height: 39px;  
+    }
+    
+    tbody tr td {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+/* NEWS GOV BODY */
 /* FOOTER */
 .mlscn-footer {
     position: relative;
