@@ -766,6 +766,169 @@ tbody tr td {
     }
 }
 /* NEWS GOV BODY */
+/* MANAGEMENT TEAM CARD */
+.mlscn-team__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.mlscn-team__card1{
+    width: 267px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.mlscn-team__card2{
+    width: 267px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.mlscn-card__footerBg{
+    background-color: var(--mlscn-green);
+    color: #ffffff;
+    max-height: 64px;
+}
+.mlscn-card__footerBg2{
+    background-color: var(--mlscn-green);
+    color: #ffffff;
+    max-height: 76px;
+}
+
+.mlscn-card__footerTitle{
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.66px;
+}
+
+.mlscn-card__foterSubtitle{
+    font-family: 'Graphit';
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18.5px;
+    color: var(--mlscn-yellow);
+ 
+}
+.mlscn-card__foterSubtitle2{
+    font-family: 'Graphit';
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16.03px;
+    text-align: left;
+    color: #ffffff;
+ 
+}
+
+.mlscn-team-card__divider {
+    border: 2px solid #BE9400;
+    text-align: center;
+}
+
+.mlscn-card__grid{
+    display: grid;
+    grid-template-columns: 269px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.mlscn-team-card__divider {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 29.5px;
+    margin-bottom: 28.5px;
+}
+
+@media screen and (min-width:576px) {
+    .mlscn-card__grid{
+        grid-template-columns: repeat(2,minmax(269px,1fr));
+        column-gap: 40px;
+        row-gap: 40px;
+    }
+    .mlscn-team-card__divider {
+        width: 100%;
+    }
+    .mlscn-card__foterSubtitle2{
+        font-family: 'Graphit';
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 16.03px;
+        text-align: left;
+        color: #ffffff;
+     
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .mlscn-card__grid{
+        grid-template-columns: repeat(3,minmax(269px,1fr));
+        column-gap: 60px;
+        row-gap: 60px;
+    }
+    .mlscn-team__container {
+        margin-top: 67px;
+    }
+    .mlscn-team__card1 {
+        width: 100%;
+        max-width: 267px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    
+    }
+    .mlscn-team__card2{
+        width: 100%;
+        max-width: 269px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    
+    }
+    
+    .mlscn-card__footerBg{
+        background-color: var(--mlscn-green);
+        color: #ffffff;
+        height: 64px;
+    }
+    
+    .mlscn-card__footerTitle{
+        font-family: 'Graphit';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.66px;
+    }
+    
+    .mlscn-card__foterSubtitle{
+        font-family: 'Graphit';
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 18.5px;
+        color: var(--mlscn-yellow);
+     
+    }
+    .mlscn-card__foterSubtitle2{
+        font-family: 'Graphit';
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 16.03px;
+        text-align: left;
+        color: #ffffff;
+     
+    }
+    .mlscn-team-card__divider {
+        display: flex;
+        justify-content: center;
+        width: 927px;
+        margin-top: 29.5px;
+        margin-bottom: 28.5px;
+        text-align: center;
+        /* margin-left: 186px; */
+    }
+}
+/* MANAGEMENT TEAM CARD */
 /* FOOTER */
 .mlscn-footer {
     position: relative;
