@@ -1381,6 +1381,303 @@ input[type="number"] {
     
 }
 /* MLSCN APPROVED INTERNSHIP */
+/* MLSCN LAWS */
+.mlscn-laws__table-stripe  th:first-child{
+    /* width: 121px; */
+    /* height: 77px; */
+    padding: 21px 16px 21px 16px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    border-bottom: 1px solid var(--mlscn-light-green);
+    background-color: var(--mlscn-light-green);
+    color: #ffffff;  
+}
+
+.mlscn-laws__table-stripe  th:last-child{
+    /* width: 706px; */
+    padding: 21px 49px 21px 49px;
+    border-radius: 0px 30px 0px 0px;
+    border-bottom: 1px solid var(--mlscn-green);
+    background-color: var(--mlscn-green);
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.mlscn-laws__table-stripe tbody td:nth-child(even) {
+    vertical-align: middle;
+    height:78px;
+    background-color: #EBEBEB;
+    border-bottom: 1px solid #418301
+}
+.mlscn-laws__table-stripe tbody td:nth-child(odd) {
+    vertical-align: middle;
+    height:78px;
+    border-bottom: 1px solid #418301
+}
+
+.mlscn-laws__header {
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+    color: var(--mlscn-green);
+    padding-left: 20px;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+.mlscn-laws__tr th{
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    background-color: var(--mlscn-light-green);
+}
+
+@media screen and (min-width:768px) {
+    .mlscn-laws__tr th {
+        font-size: 27px;
+        line-height: 35.1px;
+
+    }
+    
+}
+/* MLSCN LAWS */
+/* MLSCN APPROVED TRAINING INSTITUTION */
+.mlscn-trainingInstitution__table-stripe {
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  .mlscn-trainingInstitution__table-stripe  th:first-child{
+    vertical-align: middle;
+    border-radius: 30px 0px 0px 0px;
+    border-bottom: 1px solid var(--mlscn-green);
+    background-color: var(--mlscn-green);
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+      
+  }
+  .mlscn-trainingInstitution__table-stripe  th:nth-child(2){
+    vertical-align: middle;
+    padding-left: 24px;
+    border-bottom: 1px solid #306200;
+    background-color: #306200;
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+      
+  }
+  .mlscn-trainingInstitution__table-stripe  th:nth-child(3){
+    vertical-align: middle;
+    padding-left: 24px;
+    border-bottom: 1px solid var(--mlscn-light-green);
+    background-color: var(--mlscn-light-green);
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+  }
+  .mlscn-trainingInstitution__table-stripe  th:nth-child(4){
+    vertical-align: middle;
+    padding-left: 24px;
+    border-bottom: 1px solid var(--mlscn-light-green);
+    background-color: #4A9403;
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+  }
+  .mlscn-trainingInstitution__table-stripe  th:nth-child(5){
+    vertical-align: middle;
+    padding-left: 24px;
+    border-bottom: 1px solid var(--mlscn-light-green);
+    background-color: #53A900;
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+  }
+  
+  .mlscn-trainingInstitution__table-stripe  th:last-child{
+    vertical-align: middle;
+      padding-left: 24px;
+      border-bottom: 1px solid var(--mlscn-light-green);
+      background-color: #53A900;
+      color: #ffffff;
+      font-family: 'Graphit';
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20.8px;
+  
+  }
+  
+  .mlscn-trainingInstitution__table-stripe tbody tr {
+      border-bottom: 1px solid #418301
+  
+  }
+  .mlscn-trainingInstitution__table-stripe tbody tr td:first-child {
+      font-family: 'Graphit';
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+     background-color: #EBEBEB;
+  
+  }
+  .mlscn-trainingInstitution__table-stripe tbody tr td:last-child {
+      font-family: 'Graphit';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+  
+  }
+
+  .mlscn-trainingInstitution__tr th{
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    background-color: #CBCBCB;
+}
+  
+@media screen and (min-width:768px) {
+    .mlscn-trainingInstitution__table-stripe {
+        width: 100%;
+        margin-top: 35px;
+      }
+      
+      .mlscn-trainingInstitution__table-stripe  th:first-child{
+        width: 121px;
+        height: 115px;
+        vertical-align: middle;
+        border-radius: 30px 0px 0px 0px;
+        border-bottom: 1px solid var(--mlscn-green);
+        background-color: var(--mlscn-green);
+        color: #ffffff;
+        font-family: 'Graphit';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.8px;
+          
+      }
+      .mlscn-trainingInstitution__table-stripe  th:nth-child(2){
+        vertical-align: middle;
+        width: 265px;
+        height: 115px;
+        padding-left: 24px;
+        border-bottom: 1px solid #306200;
+        background-color: #306200;
+        color: #ffffff;
+        font-family: 'Graphit';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.8px;
+          
+      }
+      .mlscn-trainingInstitution__table-stripe  th:nth-child(3){
+        vertical-align: middle;
+        width: 134px;
+        height: 115px;
+        padding-left: 24px;
+        border-bottom: 1px solid var(--mlscn-light-green);
+        background-color: var(--mlscn-light-green);
+        color: #ffffff;
+        font-family: 'Graphit';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.8px;
+      }
+      .mlscn-trainingInstitution__table-stripe  th:nth-child(4){
+        vertical-align: middle;
+        width: 198px;
+        height: 115px;
+        padding-left: 24px;
+        border-bottom: 1px solid var(--mlscn-light-green);
+        background-color: #4A9403;
+        color: #ffffff;
+        font-family: 'Graphit';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.8px;
+      }
+      .mlscn-trainingInstitution__table-stripe  th:nth-child(5){
+        vertical-align: middle;
+        width: 141px;
+        height: 115px;
+        padding-left: 24px;
+        border-bottom: 1px solid var(--mlscn-light-green);
+        background-color: #53A900;
+        color: #ffffff;
+        font-family: 'Graphit';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.8px;
+      }
+      
+      .mlscn-trainingInstitution__table-stripe  th:last-child{
+        vertical-align: middle;
+          width: 199px;
+          height: 115px;
+          padding-left: 24px;
+          border-bottom: 1px solid var(--mlscn-light-green);
+          background-color: #53A900;
+          color: #ffffff;
+          font-family: 'Graphit';
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 20.8px;
+      
+      }
+      
+      .mlscn-trainingInstitution__table-stripe tbody tr {
+          border-bottom: 1px solid #418301
+      
+      }
+      .mlscn-trainingInstitution__table-stripe tbody tr td:first-child {
+          font-family: 'Graphit';
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 28px;
+          text-align: center;
+         background-color: #EBEBEB;
+      
+      }
+      .mlscn-trainingInstitution__table-stripe tbody tr td:last-child {
+          font-family: 'Graphit';
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+      
+      }
+    
+      .mlscn-trainingInstitution__tr th{
+        font-family: 'Graphit';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        background-color: #CBCBCB;
+    }
+    
+}
+/* MLSCN APPROVED TRAINING INSTITUTION */
 /* FOOTER */
 .mlscn-footer {
     position: relative;
