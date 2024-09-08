@@ -1446,7 +1446,6 @@ input[type="number"] {
     .mlscn-laws__tr th {
         font-size: 27px;
         line-height: 35.1px;
-
     }
     
 }
@@ -1678,7 +1677,7 @@ input[type="number"] {
 }
 /* MLSCN APPROVED TRAINING INSTITUTION */
 
-/* CDC POLICY */
+/* CPD POLICY */
 .mlscn-cpd-policy__container {
     display: flex;
     flex-direction: column;
@@ -1770,7 +1769,488 @@ input[type="number"] {
     }
     
 }
-/* CDC POLICY */
+/* CPD POLICY */
+
+/* NALECC PRICELIST */
+.mlscn-nalecc-pricelist__img {
+    background-image: url(../images/news_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 186px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 7.9px 0px #00000033;
+}
+
+.mlscn-nalecc-pricelist__container {
+    padding-left: 20px;
+    padding-top: 35px;
+}
+
+.mlscn-nalecc-pricelist__header{
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+    color: var(--mlscn-green);
+    text-transform: uppercase;
+}
+
+.mlscn-nalecc-pricelist__para {
+    font-family: 'Graphit';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--mlscn-green);
+
+}
+
+.mlscn-nalecc-pricelist__table-stripe {
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  .mlscn-nalecc-pricelist__table-stripe  th:first-child{
+      /* width: 121px; */
+      /* height: 77px; */
+      padding: 21px 16px 21px 16px;
+      gap: 0px;
+      border-radius: 30px 0px 0px 0px;
+      border-bottom: 1px solid var(--mlscn-green);
+      background-color: var(--mlscn-green);
+      color: #ffffff;
+      
+  }
+  .mlscn-nalecc-pricelist__table-stripe  th:nth-child(2){
+      /* width: 121px; */
+      /* height: 77px; */
+      padding: 21px 16px 21px 16px;
+      border-bottom: 1px solid var(--mlscn-light-green);
+      background-color: var(--mlscn-light-green);
+      color: #ffffff;
+      
+  }
+  
+  .mlscn-nalecc-pricelist__table-stripe  th:last-child{
+      /* width: 706px; */
+      padding: 21px 49px 21px 49px;
+      border-radius: 0px 30px 0px 0px;
+      border-bottom: 1px solid var(--mlscn-light-green);
+      background-color: var(--mlscn-light-green);
+      color: #ffffff;
+      font-family: 'Graphit';
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+  
+  }
+  
+  .mlscn-nalecc-pricelist__table-stripe tbody tr {
+      border-bottom: 1px solid #418301
+  
+  }
+  .mlscn-nalecc-pricelist__table-stripe tbody tr td:first-child {
+      font-family: 'Graphit';
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+     background-color: #EBEBEB;
+  
+  }
+  .mlscn-nalecc-pricelist__table-stripe tbody tr td:nth-child(2){
+      font-family: 'Graphit';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+      text-align: left;
+  
+  }
+  .mlscn-nalecc-pricelist__table-stripe tbody tr td:last-child {
+      font-family: 'Graphit';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+  
+  }
+
+  .mlscn-nalecc-pricelist__tr th{
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    background-color: #CBCBCB;
+}
+
+@media screen and (min-width:768px) {
+    .mlscn-nalecc-pricelist__container {
+        padding-left: 60px;
+        padding-top: 71px; 
+    }
+    .mlscn-nalecc-pricelist__header {
+        font-size: 35px;
+        line-height: 43.16px;
+    }
+    .mlscn-nalecc-pricelist__tr th{
+        font-size: 30px;
+        line-height: 39px;  
+    }
+    .mlscn-nalecc-pricelist__table-stripe  th:nth-child(2){
+        width:622px;
+        height: 77px;  
+        text-align: left;
+    }
+    .mlscn-nalecc-pricelist__table-stripe tbody tr td{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+}
+/* NALECC PRICELIST */
+
+/* BRM MEMBERS */
+.mlscn-brm-members__img {
+    background-image: url(../images/news_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 186px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 7.9px 0px #00000033;
+}
+
+.mlscn-brm-members__header {
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+    color: var(--mlscn-green);
+    padding-left: 20px;
+    padding-top: 35px;
+    text-transform: uppercase;
+}
+
+.mlscn-brm-members__table-stripe {
+    width: 100%;
+    margin-top: 35px;
+  }
+  
+  .mlscn-brm-members__table-stripe  th:first-child{
+      /* width: 121px; */
+      /* height: 77px; */
+      padding: 21px 16px 21px 16px;
+      gap: 0px;
+      border-radius: 30px 0px 0px 0px;
+      border-bottom: 1px solid var(--mlscn-light-green);
+      background-color: var(--mlscn-light-green);
+      color: #ffffff;
+      
+  }
+    
+    .mlscn-brm-members__table-stripe  th:last-child{
+      padding: 21px 16px 21px 16px;
+      border-radius: 0px 30px 0px 0px;
+      border-bottom: 1px solid var(--mlscn-light-green);
+      background-color: var(--mlscn-light-green);
+      color: #ffffff;
+      font-family: 'Graphit';
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+  
+  }
+  
+  .mlscn-brm-members__table-stripe tbody tr {
+      border-bottom: 1px solid #418301
+  
+  }
+  .mlscn-brm-members__table-stripe tbody tr td:first-child {
+      font-family: 'Graphit';
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: left;
+      border-bottom: 1px solid #418301
+  
+  }
+  .mlscn-brm-members__table-stripe tbody tr td:last-child{
+      font-family: 'Graphit';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      text-transform: capitalize;
+      border-left: 1px solid var(--mlscn-light-green);
+      border-bottom: 1px solid #418301
+    }
+  
+ 
+
+@media screen and (min-width:768px) {
+    .table {
+        width: 975px;
+    }
+    .mlscn-brm-members__header {
+        font-size: 35px;
+        line-height: 43.16px;
+        padding-left: 60px;
+        padding-top: 71px; 
+    }
+
+    .mlscn-brm-members__table-stripe  th:first-child{
+         width: 545px; 
+         text-align: left;  
+    }
+    .mlscn-brm-members__table-stripe  th:last-child{
+        font-size: 27px;
+        line-height: 35.1px;
+         text-align: left;  
+    }
+    .mlscn-brm-members__table-stripe tbody tr {
+       vertical-align: middle;
+       height: 78px;
+    
+    }
+
+    .mlscn-brm-members__tr th{
+        font-size: 30px;
+        line-height: 39px;  
+    }
+}
+/* BRM MEMBERS */
+
+/* IVD PROVIDERS */
+.mlscn-ivd-providers__mainContainer {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.mlscn-ivd-providers__table-stripe  th:first-child{
+    padding: 21px 16px 21px 16px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    border-bottom: 1px solid var(--mlscn-light-green);
+    background-color: var(--mlscn-light-green);
+    color: #ffffff;  
+}
+
+.mlscn-ivd-providers__table-stripe  th:nth-child(2){
+    padding: 21px 49px 21px 49px;
+    border-bottom: 1px solid var(--mlscn-light-green);
+    background-color: var(--mlscn-light-green);
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+.mlscn-ivd-providers__table-stripe  th:last-child{
+    padding: 21px 49px 21px 49px;
+    border-radius: 0px 30px 0px 0px;
+    border-bottom: 1px solid var(--mlscn-green);
+    background-color: var(--mlscn-green);
+    color: #ffffff;
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+.mlscn-ivd-providers__table-stripe tbody td:first-child {
+    vertical-align: middle;
+    height:78px;
+    border-bottom: 1px solid #418301
+}
+
+.mlscn-ivd-providers__table-stripe tbody td:last-child {
+    vertical-align: middle;
+    height:78px;
+    background-color: #EBEBEB;
+    border-bottom: 1px solid #418301
+}
+.mlscn-ivd-providers__table-stripe tbody td:nth-child(2) {
+    vertical-align: middle;
+    height:78px;
+    border-bottom: 1px solid #418301
+}
+
+
+.mlscn-ivd-providers__tr th{
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    background-color: var(--mlscn-light-green);
+}
+
+@media screen and (min-width:768px) {
+    .mlscn-ivd-providers__mainContainer {
+        margin-top: 101px;
+    }
+    .mlscn-ivd-providers__tr th {
+        font-size: 27px;
+        line-height: 35.1px;
+    }
+    
+}
+/* IVD PROVIDERS */
+
+/* CONTACT US */
+.mlscn-contact-form__flexContainer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mlscn-contact-form__para {
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    color: var(--mlscn-green);
+
+}
+
+.mlscn-contact-form__line {
+  display: none;
+  height: 500px;
+  border-left: 1px solid var(--mlscn-yellow);
+  /* border-color: var(--mlscn-yellow); */
+}
+
+.mlscn-contact-form__container {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 39px;
+    border-radius: 30px;
+    border: 1px solid var(--mlscn-green);
+    background-color: var(--mlscn-green);
+}
+
+.mlscn-contact-form__container form label {
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.83px;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+.mlscn-contact-form__container form input,
+.mlscn-contact-form__container form textarea{
+    background-color: #D6D6D6;
+}
+
+.mlscn-contact-form__container form textarea:focus,
+.mlscn-contact-form__container form textarea:active{
+    border: 1px solid var(--mlscn-green);
+}
+.mlscn-contact-form__container form input:focus,
+.mlscn-contact-form__container form input:active {
+    border: 1px solid var(--mlscn-green);
+}
+
+.msln-btn__yellow {
+    display: flex;
+    justify-content: center;
+    width:199px;
+    font-family: 'Graphit';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.99px;
+    text-align: left;
+    color: #000000 !important;
+    border: 1px solid var(--mlscn-yellow);
+    background-color: var(--mlscn-yellow) !important;
+    margin-bottom: 41px;
+}
+
+.msln-btn__yellow:focus {
+    border: 1px solid var(--mlscn-yellow);
+}
+.msln-btn__yellow:active {
+    background-color: var(--mlscn-yellow);
+    border: 1px solid var(--mlscn-yellow);
+}
+
+.btn-white {
+    width: 129px;
+    border-radius: 13px !important;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+.btn-white:focus {
+   border: 1px solid #ffffff;
+}
+
+.mlscn-contact-address__header {
+    font-family: 'Graphit';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.66px;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+.mlscn-contact-address__para {
+    font-family: 'Graphit Light';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24.66px;
+    text-align: left;
+    color: #ffffff;
+    
+}
+
+@media screen and (min-width:768px) {
+    .mlscn-contact-form__flexContainer {
+        margin-top: 41px;
+    }
+    
+    .mlscn-contact-form__para {
+        font-size: 25px;
+        line-height: 30.83px;
+    }
+
+    .mlscn-contact-form__container {
+        width: 1088px;
+        padding-top: 43px;
+        padding-left: 73px;
+        padding-right: 104px;
+    }
+
+    .mlscn-contact-form__line {
+        display: block;
+        margin-left: 52px;
+        margin-top: 39px;
+        height: 380px;
+        border-left: 1px solid var(--mlscn-yellow);
+        /* border-color: var(--mlscn-yellow); */
+    }
+}
+/* CONTACT US */
+
 /* FOOTER */
 .mlscn-footer {
     position: relative;

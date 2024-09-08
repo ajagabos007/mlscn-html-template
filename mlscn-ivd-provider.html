@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/bootstrap-5.2.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets//fontawesome-free-6.6.0-web/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/mlscn.css">
+
+  <title>Home - MLSCN</title>
+</head>
+
+<body>
+  <header class="mlscn-bg-green text-white container-fluid border-bottom mlscn-b-yellow border-4 p-3 fixed-top">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between">
+        <a class="navbar-brand d-flex align-items-center">
+          <img src="assets/images/logo.png" class="mlscn-brand-logo" alt="Description" class="image-class">
+          <div class="ms-3">
+            <h1 class="mlscn-graphit-bold display-6 pb-0 mb-0">MLSCN</h1>
+            <small class="mlscn-graphit mt-0 d-none text-wrap" id="navbarBrandMiniText">Medical Laboratory Science
+              Council
+              of Nigeria</small>
+          </div>
+        </a>
+        <div class="d-flex justify-content-between gap-4">
+          <div class="navbar navbar-success m-2" id="navbarTooggleIcon">
+            <div class="container-fluid">
+              <button class="navbar-toggler mlscn-bg-yellow  button rounded-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="mlscn-navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+          <div class="mt-4 d-none d-md-block">
+            <div class="row gap-1">
+              <a href="#" class="col-1"><i class="fa-brands fa-facebook mlscn-text-yellow"></i></a>
+              <a href="#" class="col-1"><i class="fa-brands fa-twitter mlscn-text-yellow"></i></a>
+              <a href="#" class="col-1"><i class="fa-brands fa-instagram mlscn-text-yellow"></i></a>
+              <a href="#" class="col-1"><i class="fa-brands fa-pinterest mlscn-text-yellow"></i></a>
+              <a href="#" class="col-1"><i class="fa-brands fa-tiktok mlscn-text-yellow"></i></a>
+              <a href="#" class="col-1"><i class="fa-brands fa-youtube mlscn-text-yellow"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <nav class="collapse navbar-collapse px-4 py-2 mt-4" id="navbarNavDropdown">
+        <div class="container-fluid border-top  border-2  mb-4 p-2 mlscn-b-yellow">
+          <button class="btn float-end" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+            <i class="fas fa-times mlscn-graphit-bold fs-1 text-white"></i>
+          </button>
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mlscn-nav-link  mlscn-dropdown-toggle" aria-current="page" href="#">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mlscn-nav-link mlscn-dropdown-toggle" aria-current="page" href="#">
+              Education / Training
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mlscn-nav-link mlscn-dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item  mlscn-nav-link" href="#">Action</a></li>
+              <li><a class="dropdown-item  mlscn-nav-link" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mlscn-nav-link" aria-current="page" href="#">
+              <div class="row">
+                <span class="col-10 col-lg-3">
+                  FAQ
+                </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="mt-5 pt-5 mb-5">
+    <div class="container-fluid ps-0 pe-0">
+        <div class="mlscn-intern__img">
+            <h1 class="mlscn-govBody__header">Guidelines for IVD Providers</h1>
+        </div>
+    </div>
+   <div class="container-fluid m-0 p-0">
+    <!-- MLSN IVD PROVIDERS-->
+    <nav class="navbar mt-1 mlscn-intern-navbar__bg">
+      <div class="container">
+          <div class="d-flex flex-wrap justify-content-between w-100">
+           <div class="mlscn-custom__input">
+                <span class="mlscn__show d-none d-sm-block">Show</span> 
+                <i class="fas fa-sort-up text-white"></i>
+                <input id="number-input" class="form-control postion-relative mlscn-show__entries" type="number" value="0" aria-label="Search"> 
+                <i class="fas fa-sort-down text-white"></i>
+                <span class="mlscn__entries d-none d-sm-block">Entries</span>
+           </div>
+          <form class="d-flex mlscn-search__form" role="search">
+            <input class="form-control mlscn-search__input me-2" type="search" placeholder="Search" aria-label="Search">
+            <i class="fas fa-search mlscn-search__icon"></i>
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--END MLSN IVD PROVIDERS -->
+   </div>  
+   <div class="container">
+    <div class="mlscn-ivd-providers__mainContainer">
+       <!-- FEDERAL UNIVERSITIES TABLE -->
+       <div class="table-responsive">
+        <table class="table  mlscn-ivd-providers__table-stripe  text-center">
+          <thead>
+              <tr class="mlscn-ivd-providers__tr th">
+                  <th scope="col">DOCUMENT NAME</th>
+                  <th scope="col">DOCUMENT STATUS</th>
+                  <th scope="col">Link</th>
+                </tr>
+          </thead>
+          <tbody>
+            <tr class="">
+              <td>IVD Laboratory Quality Manual</td>
+              <td></td>
+              <td><img src="./assets/images/download_icon.svg" alt="Download Icon"></td>
+            </tr>
+            <tr class="">
+              <td>IVD Laboratory Handbook</td>
+              <td>Approved</td>
+               <td><img src="./assets/images/download_icon.svg" alt="Download Icon"></td>
+             
+            </tr>
+            <tr class="">
+              <td>Company Registration Form for IVD</td>
+              <td>Approved</td>
+              <td><img src="./assets/images/download_icon.svg" alt="Download Icon"></td>
+            </tr>
+            <tr class="">
+              <td>IVD Complaint Form</td>
+              <td>Approved</td>
+               <td><img src="./assets/images/download_icon.svg" alt="Download Icon"></td>
+            </tr>
+            <tr class="">
+              <td>IVD Listing Dossier Requirement</td>
+              <td>Approved</td>
+               <td><img src="./assets/images/download_icon.svg" alt="Download Icon"></td>
+            </tr>
+          </tbody>
+        </table>
+       </div>
+       <!-- FEDERAL UNIVERSITIES TABLE -->
+    </div>
+   </div>  
+  </main>
+  <!-- FOOTER -->
+  <footer class="mlscn-footer">
+     <div class="d-flex justify-content-between align-items-center">
+         <div class="mlscn-footer--left">
+          <img src="./assets/images/logo.png" alt="" class="mlscn-brand-logo--footer">
+          <div>
+            <p class="mlscn-footer--para">Copyright © 2024 <br>
+              Medical Laboratory Science Council of Nigeria.<br> 
+              All rights reserved.</p>
+          </div>
+         </div>
+         <div class="mlscn-footer--right">
+         <p class="mlscn-footer--para2">Useful Links</p>
+         <ul>
+          <li class="mb-3">
+            <a href="">MLSCN Mandate</a>
+          </li>
+          <li class="mb-3">
+            <a href="">MLSCN History</a>
+          </li>
+          <li class="mb-3">
+            <a href="">MLSCN Approved Documents</a>
+          </li>
+          <li class="mb-3">
+            <a href="">MLSCN Webmail</a>
+          </li>
+          <li>
+            <a href="">Up-to-date MLS Practitioners' Register</a>
+          </li>
+         </ul>
+         </div>
+     </div>
+  </footer>
+  <!-- FOOTER -->
+  <script src="assets/bootstrap-5.2.3/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/fontawesome-free-6.6.0-web/js/all.min.js"></script>
+  <script src="assets/plugins/jquery/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/mlscn.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+
+        const increamentBtn = document.querySelector('.fa-sort-up');
+        const decrementBtn = document.querySelector('.fa-sort-down');
+        const numberInput = document.getElementById('number-input')
+        increamentBtn.addEventListener('click', function() {
+            console.log('clicked')
+            let currentVal = parseInt(numberInput.value)
+            let maxVal = parseInt(numberInput.max) || Infinity;
+            let stepValue = parseInt(numberInput.step) || 1;
+
+            if(currentVal < maxVal) {
+                numberInput.value = currentVal + stepValue
+            }
+        });
+
+        decrementBtn.addEventListener('click', function() {
+            let currentVal = parseInt(numberInput.value)
+            let minVal = parseInt(numberInput.min) || 0;
+            let stepValue = parseInt(numberInput.step) || 1;
+
+            if(currentVal > minVal) {
+                numberInput.value = currentVal - stepValue
+            }
+        })
+    })
+  </script>
+</body>
+
+</html>
