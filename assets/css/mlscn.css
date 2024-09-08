@@ -930,6 +930,9 @@ tbody tr td {
 }
 /* MANAGEMENT TEAM CARD */
 /* MLSCN APPROVED INTERNSHIP */
+.min-w-0 {
+    min-width: 0;
+}
 .mlscn-intern-navbar__bg {
     height: 102px;
     background-color: #E7E7E7;
@@ -951,7 +954,7 @@ tbody tr td {
     background-position: center;
     background-size: cover;
     height: 186px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     box-shadow: 0px 5px 7.9px 0px #00000033;
@@ -1449,8 +1452,9 @@ input[type="number"] {
 }
 /* MLSCN LAWS */
 /* MLSCN APPROVED TRAINING INSTITUTION */
+
 .mlscn-trainingInstitution__table-stripe {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 35px;
   }
   
@@ -1461,65 +1465,60 @@ input[type="number"] {
     background-color: var(--mlscn-green);
     color: #ffffff;
     font-family: 'Graphit';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 20.8px;
       
   }
   .mlscn-trainingInstitution__table-stripe  th:nth-child(2){
     vertical-align: middle;
-    padding-left: 24px;
     border-bottom: 1px solid #306200;
     background-color: #306200;
     color: #ffffff;
     font-family: 'Graphit';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 20.8px;
       
   }
   .mlscn-trainingInstitution__table-stripe  th:nth-child(3){
     vertical-align: middle;
-    padding-left: 24px;
     border-bottom: 1px solid var(--mlscn-light-green);
     background-color: var(--mlscn-light-green);
     color: #ffffff;
     font-family: 'Graphit';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 20.8px;
   }
   .mlscn-trainingInstitution__table-stripe  th:nth-child(4){
     vertical-align: middle;
-    padding-left: 24px;
     border-bottom: 1px solid var(--mlscn-light-green);
     background-color: #4A9403;
     color: #ffffff;
     font-family: 'Graphit';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 20.8px;
   }
   .mlscn-trainingInstitution__table-stripe  th:nth-child(5){
     vertical-align: middle;
-    padding-left: 24px;
     border-bottom: 1px solid var(--mlscn-light-green);
     background-color: #53A900;
     color: #ffffff;
     font-family: 'Graphit';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 20.8px;
   }
   
   .mlscn-trainingInstitution__table-stripe  th:last-child{
     vertical-align: middle;
-      padding-left: 24px;
       border-bottom: 1px solid var(--mlscn-light-green);
       background-color: #53A900;
       color: #ffffff;
       font-family: 'Graphit';
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 700;
       line-height: 20.8px;
   
@@ -1531,7 +1530,7 @@ input[type="number"] {
   }
   .mlscn-trainingInstitution__table-stripe tbody tr td:first-child {
       font-family: 'Graphit';
-      font-size: 20px;
+      font-size: 14px;
       font-weight: 500;
       line-height: 28px;
       text-align: center;
@@ -1540,7 +1539,7 @@ input[type="number"] {
   }
   .mlscn-trainingInstitution__table-stripe tbody tr td:last-child {
       font-family: 'Graphit';
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 24px;
       text-align: center;
@@ -1549,7 +1548,7 @@ input[type="number"] {
 
   .mlscn-trainingInstitution__tr th{
     font-family: 'Graphit';
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 32px;
     text-align: center;
