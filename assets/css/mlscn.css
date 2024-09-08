@@ -1677,6 +1677,100 @@ input[type="number"] {
     
 }
 /* MLSCN APPROVED TRAINING INSTITUTION */
+
+/* CDC POLICY */
+.mlscn-cpd-policy__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+.mlscn-cpd-policy__header{
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--mlscn-green);
+    text-transform: uppercase;
+}
+.mlscn-cpd-policy__para{
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--mlscn-green);
+}
+
+.mlscn-cpd-policy__paraBg {
+    background-color: var(--mlscn-green);
+    padding-top: 54px;
+    padding-bottom: 53px;
+}
+
+.mlscn-cpd-policy__para2 {
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+    color: #ffffff;
+
+}
+
+.mlscn-cpd-policy__header6 {
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--mlscn-green);
+}
+
+.mlscn-cpd-policy__attendance {
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36.99px;
+    color:#000000;
+    text-decoration: none;
+}
+.mlscn-cpd-policy__completion{
+    font-family: 'Graphit';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36.99px;
+    color:#000000;
+}
+
+@media screen and (min-width:768px) {
+    .mlscn-cpd-policy__header{
+        font-size: 35px;
+        line-height: 43.16px;
+    }
+    .mlscn-cpd-policy__para{
+        font-size: 25px;
+        line-height: 30.83px;
+    }
+
+    .mlscn-cpd-policy__para2 {
+        font-size: 26px;
+        line-height: 32.06px;
+    }
+    .mlscn-cpd-policy__header6 {
+        font-size: 30px;
+        line-height: 36.99px;
+    }
+    .mlscn-cpd-policy__attendance {
+        font-size: 30px;
+        line-height: 36.99px;
+    }
+    .mlscn-cpd-policy__completion {
+        font-size: 30px;
+        line-height: 36.99px;
+    }
+    
+}
+/* CDC POLICY */
 /* FOOTER */
 .mlscn-footer {
     position: relative;
