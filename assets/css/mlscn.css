@@ -2251,6 +2251,123 @@ input[type="number"] {
 }
 /* CONTACT US */
 
+/* MISSION & VISION */
+.mlscn-bg-green__container {
+    position: relative;
+    background-color: var(--mlscn-green);
+    height: 166px;
+    max-width: 100%;
+}
+/* .mlscn-bg-green__container::before{
+    position: absolute;
+    right: 0;
+    background-image: url(../images/mlscn-logo-light.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    top: 30px;
+    height: 130px;
+    width: 166px;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+} */
+.mlscn-mission__img {
+    position: absolute;
+    right: 0px;
+    background-image: url(../images/black-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0px 5px 7.9px 0px #00000033; */
+    background-color: var(--mlscn-green);
+    opacity: 0.19;
+}
+
+.mlscn-vision__mainContainer {
+  margin-top: 33px;
+  background-image: url(../images/mlscn-logo-light.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+
+.mlscn-mission__header {
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 43.16px;
+    text-align: left;
+    color: var(--mlscn-green);
+    padding-left: 38px;
+    padding-top: 62px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.mlscn-vision__header {
+    font-family: 'Graphit';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.83px;
+    text-align: justify;
+    text-transform: uppercase;
+}
+
+.mlscn-vision__para {
+    font-family: 'Graphit';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.96px;
+    text-align: justify;
+    margin-bottom: 31px;
+
+}
+
+.mlscn-vision__list a {
+    font-family: 'Graphit';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20.96px;
+    text-align: justify;
+    text-decoration: none;
+    color: #000000;
+}
+
+.mlscn-vision__btn {
+    font-family: 'Graphit';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.26px;
+    background-color: var(--mlscn-green);
+    color: var(--mlscn-yellow);
+    border-radius: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: 0;
+}
+
+.mlscn-c-yellow {
+    color: var(--mlscn-yellow);
+}
+@media screen and (min-width: 768px) {
+    .mlscn-vision__mainContainer {
+        background-size: auto;
+        
+    }
+    
+}
+/* MISSION & VISION */
+
 /* FOOTER */
 .mlscn-footer {
     position: relative;
