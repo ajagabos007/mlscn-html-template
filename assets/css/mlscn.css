@@ -119,44 +119,216 @@ body {
     color: var(--mlscn-light-green);
     font-size: 1.2em;
     font-family: 'Graphit Bold';
+    font-weight: 500;
+    line-height: 24.66px;
+    background-color: transparent !important;
 }
 
-.mlscn-dropdown-toggle {
-    position: relative;
-    padding-right: 2px;
-    /* Space for the arrow */
+.mlscn-nav-link:hover {
+    color:#ffffff;
+   
 }
 
+.dropdown-menu {
+    background: var(--mlscn-green-gradient);
+    border: 0;
+
+  }
+
+  .dropdown-menu .dropdown-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+  }
+
+.dropdown-item {
+    color: var(--mlscn-light-green);
+    font-weight: 900;
+}
 .mlscn-dropdown-toggle::after {
-    display: inline-block; /* margin-left: 15em; */
     position: absolute;
-    vertical-align: middle;/* Aligns the icon with the middle of the text */
-    font-family: "Font Awesome 6 Free"; /* Specify the Font Awesome font */
-    font-weight: 900; /* Ensure solid icons are used */
-    content: "\f30b"; /* Unicode for the long arrow right icon */
-    font-size: inherit; /* Ensures the icon is the same size as the text */
-    line-height: inherit;/* Matches the line height of the text */
-    right: 0%;
-    pointer-events: none; /* Ensures the arrow doesn't interfere with clicks*/
+    vertical-align: middle;
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    content: "\f30b"; 
+    font-size: inherit; 
+    line-height: inherit;
+    left: 350px;
+    color: var(--mlscn-light-green);
+    pointer-events: none; 
 }
 
-.mlscn-carousel-img{
-    width: 1193px; 
-    height: 410px;
-    top:20px;
-    bottom: 20px;
+
+@media screen and (min-width: 576px) {
+    .mlscn-nav-item {
+        position: relative;
+    }
+
+    .mlscn-dropdown-toggle::after {
+        position: absolute;
+        vertical-align: middle;
+        font-family: "Font Awesome 6 Free"; 
+        font-weight: 900; 
+        content: "\f30b"; 
+        font-size: inherit; 
+        line-height: inherit;
+        left: 250px;
+        color: var(--mlscn-light-green);
+        pointer-events: none; 
+    }
+
+    .mlscn-dropdown-toggle:hover::after {
+        color: var(--mlscn-yellow) !important;
+    }
+
+    .dropdown-menu {
+        background: var(--mlscn-green-gradient);
+        background: transparent;
+        font-weight: 900;
+        display: none;
+        border-left: 1px solid var(--mlscn-yellow);
+        border-radius: 0;
+        z-index: 1;
+    }
+    
+    
+    .mlscn-nav-item:hover > .dropdown-menu,
+    .dropdown-menu > li:hover > .dropdown-menu {
+        display: block;
+        position: absolute;
+        width: 90%;
+       max-width: 100%;
+       top: 0;
+       left: 110px;
+    }
+
+    .dropdown-item {
+        position: relative;
+        color: var(--mlscn-light-green);
+        font-weight: 900;
+        padding: 10px 15px;
+        white-space: nowrap;
+    }
+
+   
+    .dropdown-item:after {
+        position: absolute;
+        content: "\f30b";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 10px;
+    }
+   
+    .dropdown-item:hover::after {
+        color: var(--mlscn-yellow);
+    } 
+}
+@media screen and (min-width: 768px) {
+    .mlscn-nav-item {
+        position: relative;
+    }
+
+    .mlscn-dropdown-toggle::after {
+        position: absolute;
+        vertical-align: middle;
+        font-family: "Font Awesome 6 Free"; 
+        font-weight: 900; 
+        content: "\f30b"; 
+        font-size: inherit; 
+        line-height: inherit;
+        left: 250px;
+        color: var(--mlscn-light-green);
+        pointer-events: none; 
+    }
+
+    .mlscn-dropdown-toggle:hover::after {
+        color: var(--mlscn-yellow) !important;
+    }
+
+    .dropdown-menu {
+        background: var(--mlscn-green-gradient);
+        font-weight: 900;
+        display: none;
+        border-left: 1px solid var(--mlscn-yellow);
+        border-radius: 0;
+        z-index: 1;
+    }
+    
+    
+    .mlscn-nav-item:hover > .dropdown-menu,
+    .dropdown-menu > li:hover > .dropdown-menu {
+        display: block;
+        position: absolute;
+        width: 65%;
+       max-width: 100%;
+       top: 0;
+       left: 350px;
+    }
+
+    .dropdown-item {
+        position: relative;
+        color: var(--mlscn-light-green);
+        font-weight: 900;
+        padding: 10px 15px;
+        white-space: nowrap;
+    }
+
+   
+    .dropdown-item:after {
+        position: absolute;
+        content: "\f30b";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        right: 10px;
+    }
+   
+    .dropdown-item:hover::after {
+        color: var(--mlscn-yellow);
+    } 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
 }
 
 .mlscn-carousel-caption {
     position: absolute;
-    bottom: 1.25rem;
+    bottom: 10px;
     left: 1%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
     color: #ffffff;
     text-align: left;
 }
 
+.mlscn-carousel-caption h5 {
+    font-family: 'Graphit Bold';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    max-width: 80%;
+
+}
+
+@media screen and (min-width:768px) {
+    .carousel-item img {
+        height: 410px;
+    }
+    
+    .mlscn-carousel-caption {
+       max-width: 100%;
+       
+    } 
+
+    .mlscn-carousel-caption h5 {
+        font-size: 2.4rem;
+        line-height: 46.85px;
+    }
+    
+}
 
 .mlscn-link {
     text-decoration: none;
@@ -204,9 +376,9 @@ body {
 .bg-image-logo{
     background-image: linear-gradient(rgba(40, 81, 0, .9), rgba(21, 43, 0, .9)), url('../images/logo.png');
     background-size: contain;
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    width: 100%; /* Example width */    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;  
 }
 
 /* ARTICLE SECTION */
@@ -2375,7 +2547,7 @@ input[type="number"] {
     left: 0;
     right: 0;
     width: 100%;
-    height: 365px;
+    height: auto;
     max-height: 100%;
     background: linear-gradient(180deg, #285100 0%, #152C00 100%);
     color: #ffffff;   
@@ -2386,9 +2558,10 @@ input[type="number"] {
     max-width: 429px;
 }
 
-.mlscn-brand-logo--footer{
-    width: 143px;
-    height: 143px;
+
+.mlscn-footer__img{
+    width: 80px;
+    height:80px;
 
 }
 .mlscn-footer--para{
@@ -2409,24 +2582,101 @@ input[type="number"] {
     color: var(--mlscn-yellow);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 30.83px;
-}
-
-.mlscn-footer--right ul {
-    margin: 0;
-    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .mlscn-footer--right a {
     font-family: var(--mlscn-font-graphit-light);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 20.96px;
+    line-height: 20px;
     text-align: justify;
     text-decoration: none;
     color: #ffffff;
 
+}
+.mlscn-footer__subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.2rem;
+    padding-bottom: 2.69rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+@media screen and (min-width: 576px) {
+    .mlscn-footer__subContainer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4.2rem;
+        padding-bottom: 3.69rem;
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mlscn-footer__subContainer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4.2rem;
+        padding-bottom: 3.69rem;
+    }
+    .mlscn-footer {
+        height: 365px;
+        max-height: 100%;
+    }
+    .mlscn-footer--left{
+        padding-top:67px;
+        padding-left: 83px;
+        max-width: 429px;
+    }
+    
+    .mlscn-brand-logo--footer{
+        width: 143px;
+        height: 143px;
+    
+    }
+    .mlscn-footer--para{
+        padding-top: 21px;
+        font-family: var(--mlscn-font-graphit-light);
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24.66px;
+    }
+    
+    .mlscn-footer--right{
+        padding-top:64px;
+        padding-right: 65px;
+    }
+    
+    .mlscn-footer--para2{
+        font-family: 'Graphit';
+        color: var(--mlscn-yellow);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30.83px;
+    }
+    
+    .mlscn-footer--right ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .mlscn-footer--right a {
+        font-family: var(--mlscn-font-graphit-light);
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20.96px;
+        text-align: justify;
+        text-decoration: none;
+        color: #ffffff;
+    
+    }
 }
 /* END OF FOOTER */
 
@@ -2439,9 +2689,9 @@ input[type="number"] {
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     /* Styles for md (medium) */
-     .mlscn-dropdown-toggle::after {
+     /* .mlscn-dropdown-toggle::after {
         right: 40%;    
-    }
+    } */
   
 }
 
@@ -2449,18 +2699,18 @@ input[type="number"] {
 @media (min-width: 768px) and (max-width: 991.98px) {
 
     /* Styles for md (medium) */
-    .mlscn-dropdown-toggle::after {
+    /* .mlscn-dropdown-toggle::after {
         right: 60%;    
-    }
+    } */
   
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Styles for lg (large) */
-    .mlscn-dropdown-toggle::after {
+    /* .mlscn-dropdown-toggle::after {
         right: 70%;    
-    }
+    } */
     #imlscnDisclaminer{
         width: 519px;
         overflow-x: auto;
@@ -2475,9 +2725,9 @@ input[type="number"] {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
     /* Styles for xl (extra large) */
-    .mlscn-dropdown-toggle::after {
+    /* .mlscn-dropdown-toggle::after {
         right: 70%;    
-    }
+    } */
 
     #imlscnDisclaminer{
         width: 519px;
@@ -2492,9 +2742,9 @@ input[type="number"] {
 /* Extra extra large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 
-    .mlscn-dropdown-toggle::after {
-        right: 1170px;    
-    }
+    /* .mlscn-dropdown-toggle::after {
+        right: 0px;    
+    } */
     #imlscnDisclaminer{
         width: 519px;
         overflow-x: auto;

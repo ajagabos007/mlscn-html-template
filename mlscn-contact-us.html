@@ -200,34 +200,6 @@
   <script src="assets/fontawesome-free-6.6.0-web/js/all.min.js"></script>
   <script src="assets/plugins/jquery/jquery-3.7.1.min.js"></script>
   <script src="assets/js/mlscn.js"></script>
-  <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function() {
-
-        const increamentBtn = document.querySelector('.fa-sort-up');
-        const decrementBtn = document.querySelector('.fa-sort-down');
-        const numberInput = document.getElementById('number-input')
-        increamentBtn.addEventListener('click', function() {
-            console.log('clicked')
-            let currentVal = parseInt(numberInput.value)
-            let maxVal = parseInt(numberInput.max) || Infinity;
-            let stepValue = parseInt(numberInput.step) || 1;
-
-            if(currentVal < maxVal) {
-                numberInput.value = currentVal + stepValue
-            }
-        });
-
-        decrementBtn.addEventListener('click', function() {
-            let currentVal = parseInt(numberInput.value)
-            let minVal = parseInt(numberInput.min) || 0;
-            let stepValue = parseInt(numberInput.step) || 1;
-
-            if(currentVal > minVal) {
-                numberInput.value = currentVal - stepValue
-            }
-        })
-    })
-  </script>
 </body>
 
 </html>
